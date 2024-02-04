@@ -1,0 +1,18 @@
+img {
+    display: block;
+    text-align: center;
+}
+h1 {
+
+}
+/*unable to get this font to work*/
+h2 {
+    font-family: Montserrat, arial, sans-serif
+}
+h3 {
+    color: rgba(0, 0, 0, 0.8)
+}
+p {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+}

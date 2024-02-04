@@ -1,8 +1,40 @@
 .main-para {
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.5em;
+}
+main p {
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
 }
 #active {
     background-color: white;
     color: steelblue;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+p {
+    width: 80%;
+}
+a {
+    font-size: 1.5em;
+}
+h1, nav {
+    text-align: center;
+    Border: solid blue;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+footer {
+    text-align: right;
+    font-size: 13px;
 }
