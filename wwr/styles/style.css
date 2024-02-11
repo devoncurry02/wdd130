@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -12,43 +18,82 @@
     height: 725px;
     background-color: #99e1d9;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .button-box {
     text-align: center;
 }
 .book, .join {
-    background-color: #70abaf;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #abced0;
     color: #32292F;
     text-decoration: none;
+    font-size: 18px;
 }
 .book:hover, .join:hover {
-    background-color: #705d56;
+    background-color: #8bb8bb;
     color: #32292F;
 }
+.card-img {
+    border: 10px solid #32292F;
+}
 .home-title {
+    margin-top: 10px;
     color: #32292F;
+    font-family: 'IM Fell French Canon', arial, sans-serif;
+    font-size: 2em;
 }
 .logo, .icon {
     width: 80px;
 }
+.icon {
+    padding-top: 10px;
+}
 .msg {
+    padding: 35px;
     background-color: #f0f7f4;
+    line-height: 1.5em;
 }
 .msg h2 {
     color: #32292F;
 }
 .msg p {
+    padding-bottom: 15px;
     color: #32292F;
+    font-size: .8em;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 body {
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    font-family: 'Montserrat', 'IM Fell French Canon', Arial;
+}
+p {
+    font-family: 'Gentium Book Plus', 'IM Fell French Canon', Arial;
+}
+h2 {
+    margin: 0;
+    font-family: 'Satisfy', 'Montserrat', arial;
 }
 h4 {
     color: #32292F;
+    font-family: 'Montserrat', arial;
 }
 header {
     background-color: #99e1d9;
 }
 footer {
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: #b1988f;
     color: #32292F;
 }
@@ -56,16 +101,18 @@ footer a {
     color: #32292F;
     text-decoration: none;
 }
-footer a:hover {
-    color: #32292F;
-}
 footer p {
     font-size: 1.2em;
+    font-family: 'Montserrat', arial, sans-serif;
 }
 footer p a:hover {
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 nav a {
+    padding: 35px;
     text-align: center;
     color: #32292F;
     text-decoration: none;
@@ -76,4 +123,7 @@ nav a:hover {
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
