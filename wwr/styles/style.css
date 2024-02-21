@@ -153,6 +153,7 @@ h4 {
 }
 header {
     background-color: #99e1d9;
+    opacity:90%;
     display: grid;
     grid-template-columns: 150px auto;
 }
