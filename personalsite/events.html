@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css"/>
-    <title>Upcoming Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>RC Creations</title>
 </head>
 <body>
     <header class="nav">
-      <a href="index.html" class="button1"><h2>Home</h2></a>
-      <a href="gallery.html" class="button2"><h2>Gallery</h2></a>
-      <a href="events.html" class="button3"><h2>Upcoming Events</h2></a>
-      <button onclick="button>bottomFunction()" id="button4" title="Contact Me"><h2>Contact Me</h2></button>
-      <!--if this doesnt work try "topFunction()"-->
+      <div class="links">
+      <a class="button1" href=index.html>Home</a>
+      <a href="gallery.html" class="button2">Gallery</a>
+      <a href="events.html" class="button3">Upcoming Events</a>
+      <a href="#footer" class="button4">Contact Me</a>
+      </div>
       <div class="logo">
-        <img src="images/pottery photos/rc clay creations logo.jpg">
+        <a href="index.html"><img src="images/pottery photos/rc clay creations logo.jpg"></a>
       </div>
     </header>
     <main>
@@ -39,20 +43,25 @@
         <img src="images/pottery photos/studio photo.jpg" alt="studio photo">
       </section>
     </main>
-    <footer>
-      <div class="email">
-       <div class="footer-card1">
+    <footer id="footer">
+      <a class="email" href="mailto: rcclaycreations@gmail.com">Email: rcclaycreations@gmail.com</a>
+      <div class="footer-cards">
+      <div class="footer-card1">
         <a href="https://www.facebook.com/RCclaycreations" alt="facebook logo"><img src="images/facebook logo.png">
         <h5>Facebook</h5></a>
-       </div>
-       <div class="footer-card2">
+      </div>
+      <div class="footer-card2">
         <a href="https://www.instagram.com/rcclaycreations/" alt="instagram logo"><img src="images/instagram logo.jpg">
         <h5>Instagram</h5></a>
-       </div>
-       <div class="footer-card3">
-        <a href="https://boiseopenstudios.com/artist/ec393e769817c9369e491a7d47931c19" alt="BOSCO logo"><img src="images/bosco logo.jpg"></a>
+      </div>
+      <div class="footer-card3">
+        <a href="https://boiseopenstudios.com/artist/ec393e769817c9369e491a7d47931c19" alt="BOSCO logo"><img src="images/bosco logo.jpg">
         <h5>BOSCO</h5></a>
-       </div>
+      </div>
+      </div>
+      <div class="bottom-logo">
+        <img src="images/pottery photos/rc clay creations logo.jpg" alt="logo">
+      </div>
       <div class="copyright">
         <h5>&copy Devon Curry - 2024</h5>
       </div>
